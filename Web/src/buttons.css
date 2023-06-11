@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+a[class*="btn"],
+input[class*="btn"],
+button[class*="btn"] {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column; /* 추가: 요소들을 세로 방향으로 정렬 */
+  align-items: center;
+  justify-content: center;
+  width: 500px; /* 수정: 버튼 너비 조정 */
+  height: 300px; /* 수정: 버튼 높이 조정 */
+  margin: 50px;
+  border: 0;
+  font-size: 2em;
+}
+
+.btn-two.blue {
+  background-color: #7fb1bf;
+  color: white;
+}
+
+.rounded {
+  border-radius: 120px;
+}
+
+.price {
+  font-size: 0.5em;
+  margin: 0.5em 0 0 0; /* 수정: 가격 요소의 여백 조정 */
+}
